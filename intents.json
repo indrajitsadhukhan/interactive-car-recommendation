@@ -1,0 +1,116 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "greeting"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "goodbye"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["thanks"]
+    },
+    {
+      "tag": "four_seater",
+      "patterns": [
+        "four seater car",
+         "four members",
+          "three members"
+      ],
+      "responses": [
+        "four_seater"
+      ]
+    },
+    {
+      "tag": "long_drive",
+      "patterns": [
+        "long distance",
+         "travel long hours",
+          "vacation",     
+          "camping"
+      ],
+      "responses": [
+        "long_drive"
+      ]
+    },
+    {
+      "tag": "low_range",
+      "patterns": [
+        "cheap",
+         "low price",
+          "simple",     
+          "affordable",
+          "low budget"
+      ],
+      "responses": [
+        "low_range"
+      ]
+    },
+    {
+      "tag": "high_range",
+      "patterns": [
+        "high end",
+         "luxury",
+          "high orice",     
+          "expensive"
+      ],
+      "responses": [
+        "high_range"
+      ]
+    },
+    {
+      "tag": "high_mileage",
+      "patterns": [
+        "high mileage",
+        "long distance",
+        "fuel efficient"
+        ],
+      "responses": [
+        "high_mileage"
+      ]
+    },
+    {
+      "tag": "low_mileage",
+      "patterns": [
+        "low mileage"
+        ],
+      "responses": [
+        "low_mileage"
+      ]
+    },
+    {
+      "tag": "petrol",
+      "patterns": [
+        "petrol"
+      ],
+      "responses": [
+        "petrol"
+      ]
+    },
+    {
+      "tag": "diesel",
+      "patterns": [
+        "diesel"
+        ],
+      "responses": [
+        "diesel"
+      ]
+    }
+  ]
+}
